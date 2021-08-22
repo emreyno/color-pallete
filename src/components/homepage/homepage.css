@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+  }
+  .homepage-container{
+    
+    display: flex;
+    flex-direction: row;
+  }
+  .app-content{
+    width:95%;
+  }
+  .Router-link{
+    width:5%;
+    min-height: 100vh;
+  }
+  .link-icon{
+    width:70px;
+  }
+  .ul-link{
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+  }
